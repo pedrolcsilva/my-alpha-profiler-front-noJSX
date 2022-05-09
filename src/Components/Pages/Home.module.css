@@ -1,0 +1,37 @@
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ECEEF1;
+   flex-flow:column;
+}
+
+.contend_container{
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #ECEEF1;
+   border: 5px solid rgb(181, 181, 181);
+   border-radius: 50px;
+   max-width: 640px;
+   min-width: 320px;
+   flex-flow: column;
+   padding: 2%;
+   
+}
+.active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(91, 22, 155);
+}
+
+.contend_container > ul {
+   list-style-type: none;
+   padding: 0;
+   text-align: center;
+}
+
+.contend_container img {
+   height: 25%;
+   width: 300px;
+}
